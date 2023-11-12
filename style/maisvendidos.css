@@ -10,6 +10,7 @@ h1#titulo{
 #listaProdutos{
     display: flex;
     justify-content: center;
+    height: 300px;
     
 }
 .produtos{
@@ -22,7 +23,14 @@ h1#titulo{
     border-width: 0.1px;
     border-radius: 5px;
     text-align: center;
+    transition: 0.1s;
     
+}
+
+.produtos:hover{
+    border-width: 3px;
+    transition: 0.1s;
+    cursor: pointer;
 }
 
 .produtos img{
@@ -73,6 +81,3 @@ p#valorAss{
    
 }
 
-.promocao{
-
-}
