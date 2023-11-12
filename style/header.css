@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    
+    width: 100%;
+    right: 200px;
+    
+}
+#topo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+#box1{
+    margin-left: 30px;
+}
+#box2{
+    margin: auto;
+    width: 500px;
+}
+#box2 input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 0.2px;
+    position: relative;
+}
+
+#box2 input::placeholder{
+    font-size: 1rem;
+    padding: 20px;
+}
+#box2 a img{
+    width: 30px;
+    position: absolute;
+    top: 3%;
+    left: 66%;
+    
+}
+#box3{
+    width: 50px;
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#box3 img{
+    width: 40px;
+    margin-right: 10px;
+    
+}
+
+
+#logo{
+    width: 8rem;
+    align-items: center;
+
+}
+
+nav{
+    height: 70px;
+    
+}
+nav ul {
+    text-align: center;
+
+}
+nav ul a{
+    text-decoration: none;
+    color: #051923;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+nav ul li:hover{
+    
+    border-radius: 30px;
+    color: black;
+    transition: 0.3s;
+    font-size: 1.8rem;
+}
+
+#gif {
+    width: 40px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+
+  #animal:hover #gif {
+    opacity: 1;
+    transform: rotate(-50deg) translateX(-10px);
+    transition: 0.5s;
+  }
+
+  a#produto:hover #gif {
+    opacity: 1;
+    transform: translateX(-10px);
+    transition: 0.5s;
+  }

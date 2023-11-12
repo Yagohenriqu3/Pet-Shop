@@ -1,0 +1,23 @@
+.carousel{
+    margin-top: 100px;
+    height: 350px;
+    
+}
+
+
+.carousel img{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    object-fit: cover;
+    object-position: 50% 20%;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.253);
+    border-color: rgba(0, 0, 0, 0.26);
+}
+
+.carousel img.active {
+    opacity: 1;
+}
+

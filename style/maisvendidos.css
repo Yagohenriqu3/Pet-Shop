@@ -1,0 +1,78 @@
+#maisvendidos{
+    margin-top: 20px;
+}
+
+h1#titulo{
+    margin-left: 50px;
+   
+}
+
+#listaProdutos{
+    display: flex;
+    justify-content: center;
+    
+}
+.produtos{
+    width: 20%;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.26);
+    border-width: 0.1px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.produtos img{
+    width: 60%;
+    height: 54%;
+}
+#valorProduto{
+    margin-top: 10px;
+}
+#parcelamento{
+    font-size: 0.75rem;
+}
+
+h1#valorAss{
+    color: #2176ff;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+p#valorAss{
+    font-size: 0.8rem;
+    margin-top: -5px;
+    color: #2176ff;
+}
+
+#petsapp{
+    
+    height: 450px;
+
+}
+#app{
+    position: absolute;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+#app img{
+    width: 90%;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+#app img:hover{
+    width: 95%;
+    transition: 0.5s;
+   
+}
+
+.promocao{
+
+}

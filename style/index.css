@@ -1,0 +1,45 @@
+#assinatura {
+    background: #2176ff3b;
+    padding: 10px;
+    color: #2176ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    text-align: center;
+       
+}
+#assinatura a{
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #2174fa;
+}
+
+#destaquesc{
+    position: absolute;
+
+}
+#destaques{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+#destaques a img{
+    width: 60%;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -25px;
+    border-radius: 30px;
+}
+
+#destaques a img:hover{
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.226);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.329);
+    transition: 0.1s;
+   
+}
+
