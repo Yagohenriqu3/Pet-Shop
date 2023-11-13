@@ -70,6 +70,7 @@ p#valorAss{
 
 #app img{
     width: 90%;
+    height: auto;
     border-radius: 30px;
     transition: 0.5s;
 
@@ -82,33 +83,38 @@ p#valorAss{
 }
 
 @media only screen and (max-width: 600px){
+*{
+    margin: 0px;
+    padding: 0px;
+}
     #maisvendidos{
         margin-top: 40px;
-        width: 100%;
+        width: 90%;
+        
     }
     
-    h1#titulo{
-        margin-left: 50px;
-       
-    }
     
     #listaProdutos{
-        height: 300px;
-        width: 90%;
-        display: inline-block;
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+
         
     
     }
 
     .produtos{
-        width: 90%;
-        height: 400px;
+        width: 80%;
+        height: auto;
         border-style: solid;
         border-color: rgba(0, 0, 0, 0.26);
         border-width: 0.1px;
         border-radius: 5px;
         transition: 0.1s;
         text-align: center;
+        padding: 10px;
         
        
     }
@@ -120,29 +126,34 @@ p#valorAss{
     }
     
     .produtos img{
-        width: 100%;
-        height: 54%;
+        width: 70%;
+        height: auto;
     }
 
     .produtos h1{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-top: 10px;
     }
+
+    .produtos p{
+        width: 100%;
+    }
+
     #valorProduto{
         margin-top: 10px;
         text-align: center;
         
     }
     .parcelamento{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         text-align: center;
     }
     
     h1#valorAss{
         color: #2176ff;
         margin-top: 5px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     p#valorAss{
@@ -155,7 +166,8 @@ p#valorAss{
 
 
     #petsapp{
-        height: 150px;
+        height: 250px;
+
     
     }
     #app{
@@ -168,6 +180,7 @@ p#valorAss{
     
     #app img{
         width: 90%;
+        height: 200px;
         border-radius: 30px;
         transition: 0.5s;
     

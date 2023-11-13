@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Pet Shop</title>
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/index.css">
@@ -214,7 +214,10 @@
     <section id="petsapp">
         <div id="app">
             <a href="#">
-                <img src="img/app.png" alt="">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/app600px.png">
+                    <img src="img/app.png" alt="">
+                </picture>
             </a>
         </div>
     </section>
