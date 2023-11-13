@@ -258,13 +258,13 @@ ul.subpaginas li{
   background-color: #fff;
   padding: 10px;
   border-radius: 30px;
-  width: 25%;
   transition: 0.5s;
 }
 
 nav li.link-subpagina:hover .subpaginas{
   display: block;
   z-index: 10;
+  width: 40%;
   text-align: left;
   background-color: rgba(255, 255, 255, 0.87);
   transition: 0.5s;
