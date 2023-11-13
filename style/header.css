@@ -21,7 +21,7 @@ header{
 }
 #box2{
     margin: auto;
-    width: 500px;
+    width: 90%;
 }
 #box2 input{
     width: 100%;
@@ -94,7 +94,7 @@ nav ul li:hover{
 }
 
 #gif {
-    width: 40px;
+    width: 707px;
     opacity: 0;
     transition: 0.5s;
   }
