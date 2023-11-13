@@ -24,6 +24,7 @@ h1#titulo{
     border-radius: 5px;
     text-align: center;
     transition: 0.1s;
+    padding: 10px;
     
 }
 
