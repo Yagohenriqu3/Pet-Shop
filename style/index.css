@@ -57,7 +57,7 @@
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     #assinatura {
       background-color: #2176ff3b;
       padding: 10px;

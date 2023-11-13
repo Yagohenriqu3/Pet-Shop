@@ -114,7 +114,7 @@ nav ul li:hover{
 
 
   /* Estilo para telas menores do que 600 pixels de largura */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     *{
       margin: 0px;
       padding: 0px;
