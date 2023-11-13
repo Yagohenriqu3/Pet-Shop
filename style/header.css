@@ -17,14 +17,17 @@ header{
     
 }
 #box1{
-    margin-left: 30px;
+    margin-left: 50px;
+    
 }
 #box2{
     margin: auto;
     width: 90%;
+    text-align: right;
+    margin-right: 30px;
 }
 #box2 input{
-    width: 100%;
+    width: 40%;
     padding: 12px;
     border-radius: 20px;
     border-width: 0.2px;
@@ -38,15 +41,15 @@ header{
 #box2 a img{
     width: 30px;
     position: absolute;
-    top: 3%;
-    left: 66%;
+    top: 2.5%;
+    left: 94%;
     margin-bottom: 10px;
 }
 
 
 
 #logo{
-    width: 8rem;
+    width:10rem;
     align-items: center;
 
 }
@@ -58,7 +61,7 @@ nav{
 }
 nav ul {
     text-align: center;
-    margin-top: 20px;
+    
 
 }
 nav ul a{
@@ -83,8 +86,33 @@ nav ul li:hover{
     font-size: 1.8rem;
 }
 
+.subpaginas{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  width: 15%;
+  transition: 0.5s;
+}
+
+nav li.link-subpagina:hover .subpaginas{
+  display: block;
+  width: 15%;
+  z-index: 10;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.87);
+  transition: 0.5s;
+
+}
+
+ul.subpaginas li{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 #gif {
-    width: 707px;
+    width: 30px;
     opacity: 0;
     transition: 0.5s;
   }
@@ -222,4 +250,29 @@ nav ul li:hover{
         transition: 0.5s;
       }
     
+}
+
+
+.subpaginas{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  width: 25%;
+  transition: 0.5s;
+}
+
+nav li.link-subpagina:hover .subpaginas{
+  display: block;
+  z-index: 10;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.87);
+  transition: 0.5s;
+
+}
+
+ul.subpaginas li{
+  font-size: 1.2rem;
+  font-weight: 600;
 }
