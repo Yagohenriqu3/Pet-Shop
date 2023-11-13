@@ -164,7 +164,7 @@
     padding: 12px;
     border-radius: 20px;
     border-width: 0.2px;
-    width:80%;
+    width:78%;
     
   }
 
@@ -188,6 +188,7 @@
   .menu-toggle{
     
     margin-top: -25px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
