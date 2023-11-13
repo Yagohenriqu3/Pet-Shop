@@ -1,277 +1,284 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-header{
-    
-    width: 100%;
-    right: 200px;
-    
-}
-#topo{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    
-}
-#box1{
-    margin-left: 50px;
-    
-}
-#box2{
-    margin: auto;
-    width: 90%;
-    text-align: right;
-    margin-right: 30px;
-}
-#box2 input{
-    width: 40%;
-    padding: 12px;
-    border-radius: 20px;
-    border-width: 0.2px;
-    position: relative;
-}
-
-#box2 input::placeholder{
-    font-size: 1rem;
-    padding: 20px;
-}
-#box2 a img{
-    width: 30px;
-    position: absolute;
-    top: 2.5%;
-    left: 94%;
-    margin-bottom: 10px;
-}
-
-
-
-#logo{
-    width:10rem;
-    align-items: center;
-
-}
-
-nav{
-    width: 100%;
-    height: 70px;
-    
-}
-nav ul {
-    text-align: center;
-    
-
-}
-nav ul a{
-    text-decoration: none;
-    color: #051923;
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1.3rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    transition: 0.3s;
-}
-
-nav ul li:hover{
-    
-    border-radius: 30px;
-    color: black;
-    transition: 0.3s;
-    font-size: 1.8rem;
-}
-
-.subpaginas{
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 30px;
-  width: 15%;
-  transition: 0.5s;
-}
-
-nav li.link-subpagina:hover .subpaginas{
-  display: block;
-  width: 15%;
-  z-index: 10;
-  text-align: left;
-  background-color: rgba(255, 255, 255, 0.87);
-  transition: 0.5s;
-
-}
-
-ul.subpaginas li{
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-#gif {
-    width: 30px;
-    opacity: 0;
-    transition: 0.5s;
-  }
-  
-
-  #animal:hover #gif {
-    opacity: 1;
-    transform: rotate(-50deg) translateX(-10px);
-    transition: 0.5s;
-  }
-
-  a#produto:hover #gif {
-    opacity: 1;
-    transform: translateX(-10px);
-    transition: 0.5s;
-  }
-
-
-  /* Estilo para telas menores do que 600 pixels de largura */
-@media only screen and (max-width: 600px) {
-    *{
-      margin: 0px;
-      padding: 0px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-  
-    header{
+  header{
+      
       width: 100%;
-    }
-  
-    #topo{
-      display: block;
-      text-align: center;
-      width: 100%;
-    }
-  
-    #box1{
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  
-    #box2{
-      margin: auto;
+      right: 200px;
+      
+  }
+  #topo{
+      display: flex;
+      align-items: center;
       width: 100%;
       
-    }
-  
-    #box2 input{
-      width: 100%;
+  }
+  #box1{
+      margin-left: 50px;
+      
+  }
+  #box2{
+      margin: auto;
+      width: 90%;
+      text-align: right;
+      margin-right: 30px;
+  }
+  #box2 input{
+      width: 40%;
       padding: 12px;
       border-radius: 20px;
       border-width: 0.2px;
-      width: 90%;
-      
-    }
+      position: relative;
+  }
   
-    #box2 input::placeholder{
+  #box2 input::placeholder{
       font-size: 1rem;
       padding: 20px;
-    }
-  
-    #box2 a img{
+  }
+  #box2 a img{
       width: 30px;
       position: absolute;
-      top: 11%;
-      left: 88%;
-    }
+      top: 2.5%;
+      left: 94%;
+      margin-bottom: 10px;
+  }
   
-    #box3{
-      width: 50px;
-      padding: 10px 60px;
-      display: flex;
+  
+  
+  #logo{
+      width:10rem;
       align-items: center;
-      opacity: 0;
-    }
   
-    #box3 img{
-      width: 40px;
-      margin-right: 10px;
-    }
+  }
   
-    #logo{
-      width: 8rem;
-      align-items: center;
-    }
-  
-    nav{
+  nav{
+      width: 100%;
       height: 70px;
-      display: flex;
-    }
-  
-    nav ul {
+      
+  }
+  nav ul {
       text-align: center;
-    }
+      
   
-    nav ul a{
+  }
+  nav ul a{
       text-decoration: none;
       color: #051923;
+  }
+  
+  nav ul li{
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1.3rem;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      transition: 0.3s;
+  }
+  
+  nav ul li:hover{
+      
+      border-radius: 30px;
+      color: black;
+      transition: 0.3s;
+      font-size: 1.8rem;
+  }
+  
+  .subpaginas{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    width: 15%;
+    transition: 0.5s;
+  }
+  
+  nav li.link-subpagina:hover .subpaginas{
+    display: block;
+    width: 15%;
+    z-index: 10;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.87);
+    transition: 0.5s;
+  
+  }
+  
+  ul.subpaginas li{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  #gif {
+      width: 30px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+    
+  
+    #animal:hover #gif {
+      opacity: 1;
+      transform: rotate(-50deg) translateX(-10px);
+      transition: 0.5s;
     }
   
-    nav ul li{
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 1rem;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bolder;
-        transition: 0.3s;
-      }
+    a#produto:hover #gif {
+      opacity: 1;
+      transform: translateX(-10px);
+      transition: 0.5s;
+    }
+  .menu-toggle{
+    display: none;
+  }
+  
 
-      nav ul li:hover{
+
+/* Estilo para telas menores do que 600 pixels de largura */
+@media only screen and (max-width: 600px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header{
+    width: 100%;
+  }
+
+  #topo{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  #box1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #box2{
+    margin: auto;
+    width: 100%;
     
-        border-radius: 30px;
-        color: black;
-        transition: 0.3s;
-        font-size: 1.8rem;
+  }
+
+  #box2 input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 0.2px;
+    width:80%;
+    
+  }
+
+  #box2 input::placeholder{
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  #box2 a img{
+    width: 30px;
+    position: absolute;
+    top: 11%;
+    left: 88%;
+  }
+  
+  #logo{
+    width: 8rem;
+    align-items: center;
+  }
+
+  .menu-toggle{
+    
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .bar{
+    width: 100%;
+    height: 2px;
+    background-color:  #000;
+    margin-bottom: 4px;
+  }
+
+
+  nav.menu{
+    display: none;
+
+  }
+  nav.menu.active{
+    display: block;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul a{
+    text-decoration: none;
+    color: #051923;
+  }
+
+  nav ul li{
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+      transition: 0.3s;
+    }
+
+    nav ul li:hover{
+  
+      border-radius: 30px;
+      color: black;
+      transition: 0.3s;
+      font-size: 1.1rem;
+  }
+  
+  #gif {
+      width: 20px;
+      opacity: 0;
+      transition: 0.5s;
     }
     
-    #gif {
-        width: 20px;
-        opacity: 0;
-        transition: 0.5s;
-      }
-      
+  
+    #animal:hover #gif {
+      opacity: 1;
+      transform: rotate(-50deg) translateX(-10px);
+      transition: 0.5s;
+    }
+  
+    a#produto:hover #gif {
+      opacity: 1;
+      transform: translateX(-10px);
+      transition: 0.5s;
+    }
+    .subpaginas{
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 30px;
+      transition: 0.5s;
+    }
     
-      #animal:hover #gif {
-        opacity: 1;
-        transform: rotate(-50deg) translateX(-10px);
-        transition: 0.5s;
-      }
+    nav li.link-subpagina:hover .subpaginas{
+      display: none;
+      z-index: 10;
+      width: 40%;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.87);
+      transition: 0.5s;
     
-      a#produto:hover #gif {
-        opacity: 1;
-        transform: translateX(-10px);
-        transition: 0.5s;
-      }
+    }
     
-}
+    ul.subpaginas li{
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
 
-
-.subpaginas{
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 30px;
-  transition: 0.5s;
-}
-
-nav li.link-subpagina:hover .subpaginas{
-  display: block;
-  z-index: 10;
-  width: 40%;
-  text-align: left;
-  background-color: rgba(255, 255, 255, 0.87);
-  transition: 0.5s;
-
-}
-
-ul.subpaginas li{
-  font-size: 1.2rem;
-  font-weight: 600;
-}
+  }
